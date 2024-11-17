@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vũ khí từ xứ lạnh: Những chiến binh bầu trời Nga ở Việt Nam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Thiết lập chung */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        /* Phần đầu trang */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #2980b9);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin: 10px 0 0;
+            font-weight: 300;
+        }
+
+        /* Menu điều hướng */
+        nav {
+            background: #34495e;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* Nội dung chính */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-left: 5px solid #2980b9;
+            padding-left: 15px;
+            color: #2980b9;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .grid img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vũ khí từ xứ lạnh</h1>
+        <p>Những chiến binh bầu trời Nga ở Việt Nam</p>
+    </header>
+
+    <nav>
+        <a href="#introduction">Giới thiệu</a>
+        <a href="#history">Lịch sử hợp tác</a>
+        <a href="#aircrafts">Các dòng máy bay</a>
+        <a href="#gallery">Thư viện hình ảnh</a>
+    </nav>
+
+    <div class="container">
+        <!-- Giới thiệu -->
+        <section id="introduction">
+            <h2>Giới thiệu</h2>
+            <p>Việt Nam và Nga từ lâu đã có mối quan hệ hợp tác quân sự sâu sắc, đặc biệt trong lĩnh vực hàng không quân sự. Những chiến đấu cơ từ Nga như Su-27, Su-30 không chỉ giúp Việt Nam bảo vệ không phận mà còn đóng vai trò biểu tượng cho sức mạnh phòng thủ quốc gia.</p>
+        </section>
+
+        <!-- Lịch sử hợp tác -->
+        <section id="history">
+            <h2>Lịch sử hợp tác</h2>
+            <p>Mối quan hệ quân sự giữa Việt Nam và Nga bắt đầu từ thời kỳ Liên Xô. Vào thập niên 1960, Liên Xô đã cung cấp máy bay MiG-21 để hỗ trợ lực lượng không quân Việt Nam trong chiến tranh. Sau đó, các dòng máy bay hiện đại hơn như Su-22, Su-27 và Su-30 tiếp tục được đưa vào hoạt động, cùng với sự hỗ trợ đào tạo kỹ thuật viên và phi công từ Nga.</p>
+        </section>
+
+        <!-- Các dòng máy bay -->
+        <section id="aircrafts">
+            <h2>Các dòng máy bay nổi bật</h2>
+            <div class="grid">
+                <div>
+                    <h3>Su-27</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Máy bay Su-27">
+                    <p>Su-27 là chiến đấu cơ vượt trội với khả năng chiếm ưu thế trên không, tốc độ cao và khả năng cơ động tuyệt vời.</p>
+                </div>
+                <div>
+                    <h3>Su-30</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Máy bay Su-30">
+                    <p>Su-30 là phiên bản cải tiến của Su-27, mang lại sức mạnh tấn công linh hoạt và khả năng chiến đấu trên không vượt trội.</p>
+                </div>
+                <div>
+                    <h3>MiG-21</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Máy bay MiG-21">
+                    <p>MiG-21 là dòng máy bay huyền thoại, đã góp phần quan trọng trong chiến thắng của Việt Nam trong quá khứ.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Thư viện hình ảnh -->
+        <section id="gallery">
+            <h2>Thư viện hình ảnh</h2>
+            <div class="grid">
+                <img src="https://via.placeholder.com/400x300" alt="Hình ảnh 1">
+                <img src="https://via.placeholder.com/400x300" alt="Hình ảnh 2">
+                <img src="https://via.placeholder.com/400x300" alt="Hình ảnh 3">
+                <img src="https://via.placeholder.com/400x300" alt="Hình ảnh 4">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 - Trang web thông tin quân sự. <a href="#">Liên hệ</a> | <a href="#">Chính sách bảo mật</a>
+    </footer>
+</body>
+</html>
